@@ -6,7 +6,7 @@ namespace HackLogin {
 HackRemindUnreadCount::HackRemindUnreadCount(QObject *parent)
     : BaseHackRequest(parent)
 {
-    setUrlPath ("unread", "");
+    setUrlPath ("api/remind/unread", "");
     initiate ();
 }
 
